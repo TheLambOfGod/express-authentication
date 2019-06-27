@@ -49,6 +49,6 @@ module.exports = (sequelize, DataTypes) => {
     var userData = this.get();
     delete userData.password;
     return userData;
-  };
+  };  
   return user;
 };
